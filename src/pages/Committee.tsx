@@ -118,27 +118,27 @@ const Committee = () => {
                 </div>
 
                 <div className="mt-8">
-                  <h3 className="text-xl font-semibold mb-4">Committee Contact Information</h3>
+                  <h3 className="text-xl font-semibold mb-4">Narahubung</h3>
                   <div className="space-y-3">
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
                       <div>
-                        <p className="font-medium">Ms. Ika</p>
-                        <p className="text-sm text-muted-foreground">Contact: +62 XXX-XXXX-XXXX</p>
+                        <p className="font-medium">Ika Kurnia</p>
+                        <p className="text-sm text-muted-foreground">Contact: 0813-2465-9355</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
                       <div>
-                        <p className="font-medium">Ms. Tantriska</p>
-                        <p className="text-sm text-muted-foreground">Contact: +62 XXX-XXXX-XXXX</p>
+                        <p className="font-medium">Tantriska Wijanti</p>
+                        <p className="text-sm text-muted-foreground">Contact: 0813-2219-3959</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
                       <div className="w-2 h-2 bg-accent rounded-full"></div>
                       <div>
-                        <p className="font-medium">Ms. Rahma</p>
-                        <p className="text-sm text-muted-foreground">Contact: +62 XXX-XXXX-XXXX</p>
+                        <p className="font-medium">Rahmatul Qodriah</p>
+                        <p className="text-sm text-muted-foreground">Contact: 081-1113-1219</p>
                       </div>
                     </div>
                   </div>

@@ -20,6 +20,18 @@ const MoU = () => {
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <Handshake className="w-6 h-6 text-accent" />
+                  Cooming Soon
+                </CardTitle>
+              </CardHeader>
+            </Card>
+
+
+
+            {/* 
+            <Card className="shadow-elegant animate-fade-in mb-6">
+              <CardHeader>
+                <CardTitle className="flex items-center gap-3">
+                  <Handshake className="w-6 h-6 text-accent" />
                   MoU Program
                 </CardTitle>
               </CardHeader>
@@ -121,8 +133,12 @@ const MoU = () => {
                     and partnership package options.
                   </p>
                 </div>
+
+         
               </CardContent>
             </Card>
+            */}
+
           </div>
         </div>
       </main>

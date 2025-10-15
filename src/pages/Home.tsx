@@ -11,23 +11,23 @@ const Home = () => {
   const highlights = [
     {
       icon: Calendar,
-      title: "National Seminar",
-      description: "Quality Assurance in Higher Education and Vocational Curriculum",
+      title: "Seminar Nasional",
+      description: "Penjaminan Mutu dalam Pendidikan Tinggi dan Kurikulum Vokasi",
     },
     {
       icon: Users,
-      title: "International Expert",
-      description: "Learn from renowned international speakers and experts",
+      title: " Kuliah Pakar Internasional (Expert Lecturer)",
+      description: "Strategies of Pharmacy Vocational Students in Facing Global Health Challenges",
     },
     {
       icon: Award,
-      title: "Student Competition",
-      description: "Showcase your skills and compete with peers nationwide",
+      title: "Kompetisi Ilmiah Mahasiswa",
+      description: "Lomba Produk Inovasi Farmasi",
     },
     {
       icon: BookOpen,
-      title: "Publications",
-      description: "Submit your research through abstracts, papers, and journals",
+      title: "Publikasi",
+      description: "Presentasi Oral/Poster (The selected paper will be published)",
     },
   ];
 
@@ -63,7 +63,7 @@ const Home = () => {
                 <Button variant="gold" size="xl" className="w-full sm:w-auto">
                   <a href="https://docs.google.com/forms/d/e/1FAIpQLScyzAZufOyHvhtImKN3QG22RBEeEPW7efv0bwx90RzU3ZhM9w/viewform"
                   target="_blank">
-                    Register Now
+                    Daftar Sekarang
                   </a>
                 </Button>
        
@@ -73,7 +73,7 @@ const Home = () => {
                   size="xl"
                   className="w-full sm:w-auto bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white/20"
                 >
-                  Activity Description
+                  Deskripsi Kegiatan
                 </Button>
               </Link>
             </div>
@@ -112,37 +112,33 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Welcome to RAKERNAS APDFI 2025
+              Selamat Datang di RAKERNAS APDFI 2025
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Join us for the premier national conference bringing together educators, researchers, and
-              industry leaders to discuss the future of higher education quality assurance and vocational
-              curriculum development. Share knowledge, network with peers, and contribute to shaping the
-              future of education in Indonesia.
+              Rakernas APDFI 2025 bertujuan untuk memperkuat kolaborasi dan sinergi antar institusi pendidikan Diploma Farmasi (APDFI), untuk meningkatkan mutu pendidikan dan peran lembaga dalam menghadapi tantangan masa depan.
             </p>
             <Link to="/about">
               <Button variant="default" size="lg">
-                View Full Program
+                Agenda Kegiatan
               </Button>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTA Section*/}
       <section className="py-20 gradient-hero">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary-foreground">
             Ready to Join Us?
           </h2>
           <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-            Don't miss this opportunity to be part of Indonesia's leading conference on higher education.
-            Register today and secure your spot!
+            Jangan lewatkan kesempatan ini untuk menjadi bagian dari RAKERNAS APDFI 2025. Daftar sekarang!
           </p>
             <Button variant="gold" size="xl" className="shadow-gold-glow">
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScyzAZufOyHvhtImKN3QG22RBEeEPW7efv0bwx90RzU3ZhM9w/viewform"
               target="_blank">
-                Register for RAKERNAS 2025
+                Pendaftaran RAKERNAS 2025
               </a>
             </Button>
         </div>

@@ -36,15 +36,27 @@ const Materials = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
 
+     
       <main className="flex-1 py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-8 animate-fade-in">
-              Program Materials
+              Materi
             </h1>
 
+            <Card className="shadow-elegant animate-fade-in">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-3">
+                    <FileText className="w-6 h-6 text-accent" />
+                    Coming Soon
+                  </CardTitle>
+                </CardHeader>
+            </Card>
+
+
+            
             <div className="space-y-6">
-              {/* PDF Proposal */}
+              {/*  PDF Proposal 
               <Card className="shadow-elegant animate-fade-in">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
@@ -63,8 +75,9 @@ const Materials = () => {
                   </Button>
                 </CardContent>
               </Card>
+              */}
 
-              {/* National Seminar */}
+              {/* National Seminar 
               <Card className="shadow-elegant animate-fade-in" style={{ animationDelay: "0.1s" }}>
                 <CardHeader>
                   <CardTitle>National Seminar Topics</CardTitle>
@@ -101,8 +114,9 @@ const Materials = () => {
                   </div>
                 </CardContent>
               </Card>
+              */}
 
-              {/* International Expert Lecture */}
+              {/* International Expert Lecture
               <Card className="shadow-elegant animate-fade-in" style={{ animationDelay: "0.2s" }}>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
@@ -118,7 +132,9 @@ const Materials = () => {
                 </CardContent>
               </Card>
 
-              {/* Community Service */}
+              */} 
+
+              {/* Community Service
               <Card className="shadow-elegant animate-fade-in" style={{ animationDelay: "0.3s" }}>
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
@@ -138,14 +154,21 @@ const Materials = () => {
                   </div>
                 </CardContent>
               </Card>
+              */} 
             </div>
           </div>
+          
+
         </div>
+        
+        
       </main>
 
       <Footer />
     </div>
+    
   );
 };
 
 export default Materials;
+
