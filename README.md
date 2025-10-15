@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/cc881c77-48bb-4de7-9522-13c57f8e3e9e
+# 🌐 Website RAKERNAS APDFI 2025
 
-## How can I edit this code?
+Website ini dibuat untuk memberikan informasi resmi mengenai kegiatan **Rapat Kerja Nasional (RAKERNAS) APDFI Tahun 2025**.
+Seluruh konten yang tersedia di situs ini bersumber dari panitia resmi penyelenggara kegiatan.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🏛 Tentang RAKERNAS APDFI 2025
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cc881c77-48bb-4de7-9522-13c57f8e3e9e) and start prompting.
+**RAKERNAS (Rapat Kerja Nasional)** Asosiasi Pendidikan Diploma Farmasi Indonesia (APDFI) merupakan agenda tahunan yang membahas arah kebijakan, program kerja, serta penguatan kolaborasi antar institusi pendidikan Farmasi di Indonesia.
 
-Changes made via Lovable will be committed automatically to this repo.
+Tahun 2025, kegiatan ini mengusung tema:
 
-**Use your preferred IDE**
+> *“Penguatan Pendidikan Vokasi Farmasi Menuju Lulusan Kompeten dan Berdaya Saing Global.”*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📋 Struktur Website
 
-Follow these steps:
+Website ini memiliki beberapa menu utama:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 1. **RAKERNAS APDFI 2025**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* **Deskripsi Kegiatan**
+  Menyajikan informasi umum, latar belakang, dan tujuan pelaksanaan RAKERNAS.
+  Termasuk juga publikasi *flyer* resmi kegiatan.
 
-# Step 3: Install the necessary dependencies.
-npm i
+* **Susunan Kepanitiaan**
+  Memuat daftar panitia pelaksana sebagaimana tercantum dalam proposal resmi.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 2. **Program**
 
-**Edit a file directly in GitHub**
+* **Materi & Proposal (PDF)**
+  Tautan menuju dokumen proposal dan materi kegiatan.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* **Publikasi**
+  * Informasi narahubung panitia untuk pendaftaran, publikasi, dan komunikasi resmi lainnya.
 
-**Use GitHub Codespaces**
+### 3. **MoU**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Informasi narahubung panitia untuk MoU RAKERNAS APDFI 2025.
 
-## What technologies are used for this project?
+### 3. **Lomba Mahasiswa**
 
-This project is built with:
+* Informasi narahubung panitia untuk pendaftaran, dan komunikasi resmi lainnya.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 💻 Spesifikasi Teknis
 
-Simply open [Lovable](https://lovable.dev/projects/cc881c77-48bb-4de7-9522-13c57f8e3e9e) and click on Share -> Publish.
+| Komponen       | Teknologi                                             |
+| -------------- | ----------------------------------------------------- |
+| **Frontend**   | [React.js](https://reactjs.org/) dengan Tailwind CSS  |
+| **Backend**    | [Node.js](https://nodejs.org/) menggunakan Express.js |
+| **Database**   | Tidak digunakan (konten statis)                       |
+| **Deployment** | Hosting di domain resmi `rakernas.apdfi2025.id`       |
+| **Desain**     | Tampilan profesional, modern, dan mobile-responsive   |
+| **SEO**        | Tidak dioptimalkan (internal event site)              |
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📆 Waktu Pengembangan
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* **Durasi pengerjaan:** 5–10 hari
+* **Status:** Website informasi (tanpa sistem login atau database dinamis)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 📜 Lisensi & Kepemilikan
+
+Hak cipta © 2025 **Panitia RAKERNAS APDFI 2025**
+Seluruh materi, gambar, dan dokumen dalam situs ini merupakan milik penyelenggara dan tidak untuk dipublikasikan ulang tanpa izin resmi.
+
+---
+
+## 🤝 Kontribusi
+
+Kontribusi terhadap pengembangan website dapat dilakukan melalui koordinasi langsung dengan tim IT atau humas panitia RAKERNAS APDFI 2025.
+
+Untuk laporan bug atau masukan desain, silakan hubungi:
+📧 **[apdfi.regional1@gmail.com](mailto:apdfi.regional1@gmail.com**
+
+---
