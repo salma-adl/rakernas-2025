@@ -83,4 +83,8 @@ Kontribusi terhadap pengembangan website dapat dilakukan melalui koordinasi lang
 Untuk laporan bug atau masukan desain, silakan hubungi:
 📧 **[apdfi.regional1@gmail.com](mailto:apdfi.regional1@gmail.com**
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> 29e2fda0ada75de78b45aadd4ccac749883b2ef1
