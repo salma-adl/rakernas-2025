@@ -27,7 +27,7 @@ const About = () => {
                 </p>
 
                 <div className="bg-accent/10 border border-accent/20 p-4 rounded-lg space-y-3">
-                  <h4 className="font-semibold">Kegitan:</h4>
+                  <h4 className="font-semibold">Kegiatan:</h4>
                   <ul className="text-sm text-muted-foreground space-y-2 ml-4">
                     <li>• Rapat Kerja Nasional APDFI</li>
                     <li>• Seminar Nasional : Permendiktisaintek No.39 2025 (Penjaminan Mutu Pendidikan Tinggi)</li>
@@ -66,7 +66,18 @@ const About = () => {
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span>Oral Presentasi : <b>Rp 200.000</b></span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                       <span>Poster : <b>Rp 150.000</b></span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span>Memorandum of Understanding(MoU) : <b>Rp 750.000</b></span>
+                    </li><li className="flex items-start gap-2">
+                      <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span>Memorandum of Agreement(MoA) : <b>Rp 100.000</b></span>
                     </li>
                   </ul>
                 </div>

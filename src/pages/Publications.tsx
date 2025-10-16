@@ -116,8 +116,7 @@ const Publications = () => {
                           adalah A4 dengan maksimal 300 kata. Abstrak ditulis menggunakan Bahasa Indonesia dengan kualitas ejaan dan tata bahasa yang sesuaiuntuk publikasi. </li>
                         <li>4. Nama penulis yang akan bertindak sebagai pemakalah diberi garis bawah (underline) dan
                           dicetak tebal pada template abstrak yang dikirimkan.</li>
-                        <li>5. Penulis terdaftar sebagai peserta RAKERNAS APDFI 2025 dan mengunggah abstrak melalui 
-                          <b> https://bit.ly/AbstrakAPDFI2025</b>. Saat mengunggah abstrak, peserta wajib memilih salah
+                        <li>5. Penulis mengunggah abstrak melalui <a href="https://bit.ly/AbstrakAPDFI2025"><b> https://bit.ly/AbstrakAPDFI2025</b></a>. Saat mengunggah abstrak, peserta wajib memilih salah
                           satu topik yang sesuai.</li>
                         <li>6. Setiap pemakalah dapat mengunggah paling banyak 1 (satu) abstrak dan hanya dapat
                           mengikuti satu kategori presentasi saja (oral atau poster).</li>

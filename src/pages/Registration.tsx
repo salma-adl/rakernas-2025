@@ -37,12 +37,24 @@ const Registration = () => {
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span>Oral Presentasi : <b>Rp 200.000</b></span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                       <span>Lomba Mahasiswa : <b>Rp 150.000</b></span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                       <span>Poster : <b>Rp 150.000</b></span>
                     </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span>Memorandum of Understanding(MoU) : <b>Rp 750.000</b></span>
+                    </li><li className="flex items-start gap-2">
+                      <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span>Memorandum of Agreement(MoA) : <b>Rp 100.000</b></span>
+                    </li>
+
                   </ul>
                 </div>
                 <div className="bg-secondary/30 p-6 rounded-lg">
