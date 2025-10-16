@@ -73,7 +73,7 @@ const Accommodation = () => {
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6734360028945!2d107.5865762!3d-6.929580800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e8a7fddd64a7%3A0x64ba7b7fc2d6f270!2sHarris%20Hotel%20%26%20Conventions%20Festival%20Citylink%20Bandung!5e0!3m2!1sen!2sid!4v1760272430002!5m2!1sen!2sid" width="300" height="150" allowFullScreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </p>
                     <Button variant="gold">
-                      <a href="https://maps.app.goo.gl/Ge9H8W9LMCHBue7g9">Open in Google Maps</a>
+                      <a href="https://maps.app.goo.gl/Ge9H8W9LMCHBue7g9" target="_blank">Open in Google Maps</a>
                     </Button>
                   </div>
                 </div>

@@ -116,7 +116,7 @@ const Publications = () => {
                           adalah A4 dengan maksimal 300 kata. Abstrak ditulis menggunakan Bahasa Indonesia dengan kualitas ejaan dan tata bahasa yang sesuaiuntuk publikasi. </li>
                         <li>4. Nama penulis yang akan bertindak sebagai pemakalah diberi garis bawah (underline) dan
                           dicetak tebal pada template abstrak yang dikirimkan.</li>
-                        <li>5. Penulis mengunggah abstrak melalui <a href="https://bit.ly/AbstrakAPDFI2025"><b> https://bit.ly/AbstrakAPDFI2025</b></a>. Saat mengunggah abstrak, peserta wajib memilih salah
+                        <li>5. Penulis mengunggah abstrak melalui <a href="https://bit.ly/AbstrakAPDFI2025" target="_blank"><b> https://bit.ly/AbstrakAPDFI2025</b></a>. Saat mengunggah abstrak, peserta wajib memilih salah
                           satu topik yang sesuai.</li>
                         <li>6. Setiap pemakalah dapat mengunggah paling banyak 1 (satu) abstrak dan hanya dapat
                           mengikuti satu kategori presentasi saja (oral atau poster).</li>
@@ -136,7 +136,7 @@ const Publications = () => {
                           diunduh oleh peserta sebagai bukti dukung pelaksanaan kegiatan.</li>
                       </ul>
                     </div>
-                    <a href="https://docs.google.com/document/d/186RCkPHGK6pQg0hsbibO5AipBPmyuPXd/edit?usp=sharing&ouid=107147833834694597523&rtpof=true&sd=true">
+                    <a href="https://docs.google.com/document/d/186RCkPHGK6pQg0hsbibO5AipBPmyuPXd/edit?usp=sharing&ouid=107147833834694597523&rtpof=true&sd=true" target="_blank">
                       <Button variant="gold">
                         <Download className="mr-2 h-4 w-4" />
                         Download Template Abstrak
@@ -261,7 +261,7 @@ const Publications = () => {
                         <li>https://journal.bku.ac.id/jfg/index.php/jfg/index</li>
                       </ul>
                     <br></br></div>
-                    <a href="https://drive.google.com/file/d/1XHFBguVBCnf9QfmNF9Fvh_cE4ubwlJ2b/view?usp=sharing">
+                    <a href="https://drive.google.com/file/d/1XHFBguVBCnf9QfmNF9Fvh_cE4ubwlJ2b/view?usp=sharing" target="_blank">
                     <Button variant="gold">
                       <Download className="mr-2 h-4 w-4" />
                       Download Guidelines for Authors
@@ -304,7 +304,7 @@ const Publications = () => {
             </Card>
 
             <div className="mt-8 text-center">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0AIp_jbv1n1BWh6e3BEXvV-tY-J_cE8xp29HCmmrNLTAMeg/viewform">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0AIp_jbv1n1BWh6e3BEXvV-tY-J_cE8xp29HCmmrNLTAMeg/viewform" target="_blank">
                 <Button variant="gold" size="xl">
                   DAFTAR PRESENTASI ORAL/POSTER
                 </Button>
