@@ -112,7 +112,7 @@ const Registration = () => {
                   
                 </p>
                 <Button variant="gold" size="lg" className="w-full sm:w-auto">
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScyzAZufOyHvhtImKN3QG22RBEeEPW7efv0bwx90RzU3ZhM9w/viewform">Submit Konfirmasi Pembayaran (Google Form)</a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScyzAZufOyHvhtImKN3QG22RBEeEPW7efv0bwx90RzU3ZhM9w/viewform" target="_blank">Submit Konfirmasi Pembayaran (Google Form)</a>
                 </Button>
                 <p className="text-xs text-muted-foreground">
 

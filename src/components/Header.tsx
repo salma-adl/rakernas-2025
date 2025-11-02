@@ -65,6 +65,12 @@ const Header = () => {
                 >
                   Susunan Kepanitiaan
                 </Link>
+                <Link
+                  to="/rundown"
+                  className="block px-4 py-3 hover:bg-secondary transition-fast rounded-b-lg"
+                >
+                  Rundown Acara
+                </Link>
               </div>
             </div>
 
@@ -174,6 +180,11 @@ const Header = () => {
                     <Link to="/committee" onClick={() => setIsMenuOpen(false)}>
                       <Button variant="ghost" className="w-full justify-start text-sm">
                         Susunan Kepanitiaan
+                      </Button>
+                    </Link>
+                    <Link to="/rundown" onClick={() => setIsMenuOpen(false)}>
+                      <Button variant="ghost" className="w-full justify-start text-sm">
+                        Rundown Acara
                       </Button>
                     </Link>
                   </div>
