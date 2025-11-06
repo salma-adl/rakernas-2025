@@ -88,13 +88,13 @@ const scheduleData: Schedule[] = [
   {
     day: "Day 1",
     time: "14:20 - 16:00",
-    schedule: "Topic 1 : Permendiktisaintek No 39 2025 (Penjaminan mutu)",
+    schedule: "Topic 1 : Permendiktisaintek No 39 2025 (Penjaminan mutu Pendidikan Tinggi) : Dr. Beny Bandanadjaja, S.T., M.T.",
     description: "Seminar National",
   },
    {
     day: "Day 1",
     time: "16:00 - 17:30",
-    schedule: "Topic 2 : Kurikulum Vokasi : Desutama Rachmat Bugi Prayogo",
+    schedule: "Topic 2 : Kurikulum Vokasi : Desutama Rachmat Bugi Prayogo, S.T., M.T.",
     description: "Seminar National",
   },
   {
@@ -112,7 +112,7 @@ const scheduleData: Schedule[] = [
   {
     day: "Day 1",
     time: "20:00 - 21:30",
-    schedule: "Topik 3 : Memahami Instrumen Akreditasi 8 Kriteria: Langkah Praktis Menuju Terakreditasi Unggul",
+    schedule: "Topik 3 : Memahami Instrumen Akreditasi 8 Kriteria: Langkah Praktis Menuju Terakreditasi Unggul : Dra.apt.Titiek Martati, M.Si",
     description: "Seminar Nasional",
   },
   {
@@ -123,6 +123,12 @@ const scheduleData: Schedule[] = [
   },
   {
     day: "Day 2",
+    time: "08.00 - 09:30",
+    schedule: "Topik 5 : Managing knowledge into publishable academic journal : Prof. Ts.Dr. Nangkula Utaberta",
+    description: "Topik 4 dan 5 dilaksanakan paralel",
+  },
+  {
+    day: "Day 2",
     time: "09:30 - 09:45",
     schedule: "Coffee Break",
     description: "-",
@@ -130,14 +136,14 @@ const scheduleData: Schedule[] = [
   {
     day: "Day 2",
     time: "09:45 - 11:00",
-    schedule: "Topik 5 : Community service: Rational Self-Medication Practices in Malaysia + Discussion : apt. Enti Hariadha, MSc.(Clin.Pharm) : UCSI",
-    description: "-",
+    schedule: "Topik 6 : Community service: Rational Self-Medication Practices in Malaysia + Discussion : apt. Enti Hariadha, MSc.(Clin.Pharm) : UCSI",
+    description: "Target peserta : Peserta rakernas, mahasiswa dan masyarakat",
   },
   {
     day: "Day 2",
     time: "11:00 - 12:30",
-    schedule: "Topik 6 : Pengabdian Masyarakat : Optimalisasi Pemanfaatan Obat Tradisional terhadap peningkatan status kesehatan masyarakat : apt. Awal Prichatin Kusumadewi., M.Sc.",
-    description: "-",
+    schedule: "Topik 7 : Pengabdian Masyarakat : Optimalisasi Pemanfaatan Obat Tradisional terhadap peningkatan status kesehatan masyarakat : apt. Awal Prichatin Kusumadewi., M.Sc.",
+    description: "Target peserta : Peserta rakernas, mahasiswa dan masyarakat",
   },
   {
     day: "Day 2",
@@ -173,7 +179,7 @@ const scheduleData: Schedule[] = [
     day: "Day 2",
     time: "18:30 - 22:00",
     schedule: "Gala Dinner (Contest announcement, and gathering)+Coffee",
-    description: "Dress code : Bertema pahlawan nasional",
+    description: "-",
   },
   {
     day: "Day 3",
@@ -326,6 +332,13 @@ const Rundown = () => {
                   </TableBody>
                 </Table>
               </div>
+              <CardContent>
+                <div className="bg-accent/10 border border-accent/20 p-4 rounded-lg mt-4">
+                  <p className="text-sm font-medium">
+                    Keterangan : Kegiatan presentasi lomba dosen dilaksanakan paralel dengan kuliah pakar dan PkM.
+                  </p>
+                </div>
+              </CardContent>
             </div>
           </Card>
 
