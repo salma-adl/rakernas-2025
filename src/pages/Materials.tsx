@@ -6,6 +6,7 @@ import { Download, FileText, Presentation, Video } from "lucide-react";
 
 const Materials = () => {
   const materials = [
+  
     {
       title: "PDF Proposal",
       description: "Download the complete RAKERNAS 2025 proposal document",
@@ -38,123 +39,154 @@ const Materials = () => {
 
      
       <main className="flex-1 py-12">
+
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-8 animate-fade-in">
               Materi
             </h1>
-
-            <Card className="shadow-elegant animate-fade-in">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-3">
-                    <FileText className="w-6 h-6 text-accent" />
-                    Coming Soon
-                  </CardTitle>
-                </CardHeader>
-            </Card>
-
-
             
             <div className="space-y-6">
-              {/*  PDF Proposal 
+              {
               <Card className="shadow-elegant animate-fade-in">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
                     <FileText className="w-6 h-6 text-accent" />
-                    PDF Proposal
+                    Topic 1
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Download the complete RAKERNAS 2025 proposal document containing all conference
-                    details, schedules, and guidelines.
+                    Permendiktisaintek No 39 2025 (Penjaminan mutu Pendidikan Tinggi) Dr. Eng. Pipit Anggraeni, S.T., M.T., M.Sc.Eng.
                   </p>
                   <Button variant="gold">
                     <Download className="mr-2 h-4 w-4" />
-                    Download Proposal
+                      <a href="https://drive.google.com/file/d/1Mo1E4mGGJzfWwpnAG3t8_5-b_5N5qRA9/view?usp=sharing" target="_blank">Download Materi</a>
                   </Button>
                 </CardContent>
               </Card>
-              */}
+              }
 
-              {/* National Seminar 
-              <Card className="shadow-elegant animate-fade-in" style={{ animationDelay: "0.1s" }}>
-                <CardHeader>
-                  <CardTitle>National Seminar Topics</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-4">
-                    <div>
-                      <h4 className="font-semibold mb-2 flex items-center gap-2">
-                        <div className="w-2 h-2 bg-accent rounded-full"></div>
-                        Quality Assurance in Higher Education
-                      </h4>
-                      <p className="text-sm text-muted-foreground ml-4">
-                        Best practices and frameworks for ensuring educational quality
-                      </p>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold mb-2 flex items-center gap-2">
-                        <div className="w-2 h-2 bg-accent rounded-full"></div>
-                        Vocational Curriculum Development
-                      </h4>
-                      <p className="text-sm text-muted-foreground ml-4">
-                        Innovative approaches to designing industry-relevant curricula
-                      </p>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold mb-2 flex items-center gap-2">
-                        <div className="w-2 h-2 bg-accent rounded-full"></div>
-                        Accreditation Sharing
-                      </h4>
-                      <p className="text-sm text-muted-foreground ml-4">
-                        8-Criteria Diploma 3 Pharmacy & Anafarma Programs accreditation insights
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-              */}
-
-              {/* International Expert Lecture
-              <Card className="shadow-elegant animate-fade-in" style={{ animationDelay: "0.2s" }}>
+              {
+              <Card className="shadow-elegant animate-fade-in">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
-                    <Presentation className="w-6 h-6 text-accent" />
-                    International Expert Lecture
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">
-                    Learn from internationally recognized experts in higher education quality assurance
-                    and vocational training. Lecture materials will be available after the sessions.
-                  </p>
-                </CardContent>
-              </Card>
-
-              */} 
-
-              {/* Community Service
-              <Card className="shadow-elegant animate-fade-in" style={{ animationDelay: "0.3s" }}>
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-3">
-                    <Video className="w-6 h-6 text-accent" />
-                    Community Service Activity
+                    <FileText className="w-6 h-6 text-accent" />
+                    Topic 2
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">
-                    Participate in meaningful community engagement programs that bridge academia and
-                    society. Guidelines and activity materials will be provided to all participants.
+                    Kurikulum Vokasi : Desutama Rachmat Bugi Prayogo, S.T., M.T.
                   </p>
-                  <div className="bg-secondary/30 p-4 rounded-lg">
-                    <p className="text-sm text-muted-foreground">
-                      Registration for community service activities is included with conference registration.
-                    </p>
-                  </div>
+                  <Button variant="gold">
+                    <Download className="mr-2 h-4 w-4" />
+                      <a href="https://drive.google.com/file/d/1SK5UkJYkDKAAkBV09wJkdiWGEGJYYv_x/view?usp=sharing" target="_blank">Download Materi</a>
+                  </Button>
                 </CardContent>
               </Card>
-              */} 
+              }
+
+               {
+              <Card className="shadow-elegant animate-fade-in">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-3">
+                    <FileText className="w-6 h-6 text-accent" />
+                    Topic 3
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-4">
+                    Memahami Instrumen Akreditasi 8 Kriteria: Langkah Praktis Menuju Terakreditasi Unggul Dra.apt.Titiek Martati, M.Si
+                  </p>
+                  <Button variant="gold">
+                    <Download className="mr-2 h-4 w-4" />
+                      <a href="https://drive.google.com/file/d/16dbOLgc6hfIPTwNwJVrDjoivqQPya9RU/view?usp=sharing" target="_blank">Download Materi</a>
+                  </Button>
+                </CardContent>
+              </Card>
+              }
+
+              {
+              <Card className="shadow-elegant animate-fade-in">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-3">
+                    <FileText className="w-6 h-6 text-accent" />
+                    Topic 4
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-4">
+                    Expert Lecture:Strategies of Pharmacy Vocational Students in Facing Global Health Challenges + Discussion : Prof. Dr. Mogana Sundari Rajagopal : UCSI
+                  </p>
+                  <Button variant="gold">
+                    <Download className="mr-2 h-4 w-4" />
+                      <a href="https://drive.google.com/file/d/1E6JWntFiXcLMpWtWY6QoDe87E7UGOJpi/view?usp=sharing" target="_blank">Download Materi</a>
+                  </Button>
+                </CardContent>
+              </Card>
+              }
+
+              {
+              <Card className="shadow-elegant animate-fade-in">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-3">
+                    <FileText className="w-6 h-6 text-accent" />
+                    Topic 5
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-4">
+                    Managing knowledge into publishable academic journal : Prof. Ts.Dr. Nangkula Utaberta
+                  </p>
+                  <Button variant="gold">
+                    <Download className="mr-2 h-4 w-4" />
+                      <a href="https://drive.google.com/file/d/1q1BHnG2KIITwmdQYaybY79t517yiarQR/view?usp=sharing" target="_blank">Download Materi</a>
+                  </Button>
+                </CardContent>
+              </Card>
+              }
+
+              {
+              <Card className="shadow-elegant animate-fade-in">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-3">
+                    <FileText className="w-6 h-6 text-accent" />
+                    Topic 6
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-4">
+                    Community service: Rational Self-Medication Practices in Malaysia + Discussion : apt. Enti Hariadha, MSc.(Clin.Pharm) : UCSI
+                  </p>
+                  <Button variant="gold">
+                    <Download className="mr-2 h-4 w-4" />
+                      <a href="https://drive.google.com/file/d/1AUqECmX63C5QddbpLDtnl7LtLnC-ToBd/view?usp=sharing" target="_blank">Download Materi</a>
+                  </Button>
+                </CardContent>
+              </Card>
+              }
+
+              {
+              <Card className="shadow-elegant animate-fade-in">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-3">
+                    <FileText className="w-6 h-6 text-accent" />
+                    Topic 7
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-4">
+                    Community Service: Optimizing the Use of Traditional Medicine to Improve Community Health Status apt. Awal Prichatin Kusumadewi., M.Sc.
+                  </p>
+                  <Button variant="gold">
+                    <Download className="mr-2 h-4 w-4" />
+                      <a href="https://drive.google.com/file/d/1gpW3GHxJI7KqjY9xzKGhh6TY8kB0z3A6/view?usp=sharing" target="_blank">Download Materi</a>
+                  </Button>
+                </CardContent>
+              </Card>
+              }
+              
             </div>
           </div>
           
