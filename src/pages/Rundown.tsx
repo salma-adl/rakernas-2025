@@ -377,7 +377,7 @@ const Rundown = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
                     <FileCheck className="w-6 h-6 text-accent" />
-                    Petunjuk Teknis Kegiatan Gala Dinner
+                    Petunjuk Teknis Kegiatan RAKERNAS
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
