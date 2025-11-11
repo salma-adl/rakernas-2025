@@ -34,98 +34,116 @@ const scheduleData: Schedule[] = [
   {
     day: "Day 1",
     time: "13:00 - 13:05",
-    schedule: "Opening",
-    description: "Opening and reading of the agenda by MC",
+    schedule: "Opening and reading of the agenda by MC",
+    description: "Al-Fira Putriyanti, M.Farm | Asriadi Prhandika W, S.Tr,Kes (an)",
   },
   {
     day: "Day 1",
     time: "13:05 - 13:10",
     schedule: "Reciting verses from the Holy Quran",
-    description: "-",
+    description: "apt. Abdul Mulki Irfani, M.Farm | apt. Nurul, M.Farm",
   },
   {
     day: "Day 1",
     time: "13:10 - 13:15",
+    schedule: "Prayer recitation",
+    description: "Dr. apt. Umil Mahfudin, M.Mkes",
+  },
+  {
+    day: "Day 1",
+    time: "13:15 - 13:20",
     schedule: "Sing the national anthem of Indonesia Raya",
-    description: "-",
+    description: "Dirigen : apt. Melinda Januarti, M.Si",
   },
   {
     day: "Day 1",
-    time: "13:15 - 13:25",
-    schedule: "Tari Traditional",
-    description: "-",
-  },
-  {
-    day: "Day 1",
-    time: "13:25 - 13:30",
-    schedule: "Sambutan Ketua Pelaksana",
-    description: "-",
+    time: "13:20 - 13:30",
+    schedule: "Traditional dance performance, Jaipong dance",
+    description: "LSS Universitas Bakti Kencana",
   },
   {
     day: "Day 1",
     time: "13:30 - 13:40",
+    schedule: "Sambutan ketua Pelaksana Rakernas 2025",
+    description: "Dr. apt. Entris Sutrisno, MHKes",
+  },
+  {
+    day: "Day 1",
+    time: "13:40 - 13:50",
     schedule: "Sambutan Ketua APDFI",
     description: "apt.Dra.Yusmaniar, M.Biomed",
   },
   {
     day: "Day 1",
-    time: "13:40 - 13:50",
-    schedule: "Sambutan Ketua DPD",
-    description: "Alfiansyah Bustami Komeng",
+    time: "13:50 - 14:00",
+    schedule: "Sambutan Ketua DPD / MPR RI 2024-2029",
+    description: "apt. Destita Khairilisani, S.Farm., M.S.M.",
   },
   {
     day: "Day 1",
-    time: "13:50 - 14:00",
+    time: "14:00 - 14:10",
     schedule: "Sambutan Walikota Bandung",
     description: "Muhammad Farhan, S.E., M.Si",
   },
   {
     day: "Day 1",
-    time: "14:00 - 14:20",
+    time: "14:10 - 14:30",
     schedule: "Performing Traditional Arts : Angklung",
-    description: "-",
+    description: "AKSI (Angklung Farmasi) : Poltekkes Kemenkes Bandung",
   },
   {
     day: "Day 1",
-    time: "14:20 - 16:00",
-    schedule: "Topic 1 : Permendiktisaintek No 39 2025 (Penjaminan mutu Pendidikan Tinggi) : Dr. Beny Bandanadjaja, S.T., M.T.",
-    description: "Seminar National",
+    time: "14:30 - 15:00",
+    schedule: "Penandatangan MoU antara industri dan APDFI",
+    description: "MoU Industri : 1. BCrobes; 2. PT Nanotech Global Indonesia; Tbk 3. SR12",
+  },
+  {
+    day: "Day 1",
+    time: "15:00 - 16:20",
+    schedule: "Topic 1 : Permendiktisaintek No 39 2025 (Penjaminan mutu Pendidikan Tinggi) Dr. Eng. Pipit Anggraeni, S.T., M.T., M.Sc.Eng.",
+    description: "Moderator : Dr. apt. Leonov Rianto.,S.Si.,M.Farm.,Apt | PIC : apt.Nuri Handayani,M.Farm",
   },
    {
     day: "Day 1",
-    time: "16:00 - 17:30",
+    time: "16:20 - 17:50",
     schedule: "Topic 2 : Kurikulum Vokasi : Desutama Rachmat Bugi Prayogo, S.T., M.T.",
-    description: "Seminar National",
+    description: "Moderator : Dr. apt. Fef Rukminingsih, M.Sc | PIC : apt. Ani Anggriani, M.Si",
   },
   {
     day: "Day 1",
-    time: "17:30 - 19:00",
+    time: "17:50 - 19:00",
     schedule: "ISHOMA",
     description: "Istirahat, Sholat, Makan",
   },
   {
     day: "Day 1",
-    time: "19:00 - 20:00",
+    time: "19:00 - 19:30",
     schedule: "Signing of the MoU and MoA International",
-    description: "Dresscode: Bebas",
+    description: "PJ : Dr. apt. Wardiyah, M.Si ; apt. Ulya Safrina, M.Si Dress code : Bebas",
+  },
+  {
+    day: "Day 1",
+    time: "19:30 - 20:00",
+    schedule: "Sosialisasi Obat Apps",
+    description: "apt. Syaiful Rabbani, S.Farm., MBA",
   },
   {
     day: "Day 1",
     time: "20:00 - 21:30",
-    schedule: "Topik 3 : Memahami Instrumen Akreditasi 8 Kriteria: Langkah Praktis Menuju Terakreditasi Unggul : Dra.apt.Titiek Martati, M.Si",
-    description: "Seminar Nasional",
+    schedule: "Topik 3 : Memahami Instrumen Akreditasi 8 Kriteria: Langkah Praktis Menuju Terakreditasi Unggul Dra.apt.Titiek Martati, M.Si",
+    description: "Moderator : apt.Yugo Susanto, S.Si.,M.Pd.,M.Farm | PIC : Dr.apt. Rahmatul Qodriah, M.Farm",
   },
   {
     day: "Day 2",
-    time: "08:30 - 09:30",
-    schedule: "Topic 4 : Expert Lecture:Strategies of Pharmacy Vocational Students in Facing Global Health Challenges + Discussion: Prof. Dr. Mogana Sundari Rajagopal : UCSI",
-    description: "Dress code : Kaos Rakernas 2025 (Akan dibagikan ketika registrasi hari pertama)",
+    time: "08:00 - 09:30",
+    schedule: "Topic 4 : Expert Lecture:Strategies of Pharmacy Vocational Students in Facing Global Health Challenges + Discussion : Prof. Dr. Mogana Sundari Rajagopal : UCSI Sasaran Peserta : Mahasiswa (Online Zoom)",
+    description: "Modertor : apt.Nooryza Martihandini,M.Farm | PIC : Dr.apt. Rahmatul Qodriah, M.Farm | Dress code : Kaos Rakernas 2025 (Akan dibagikan ketika registrasi hari pertama)",
   },
   {
     day: "Day 2",
     time: "08.00 - 09:30",
     schedule: "Topik 5 : Managing knowledge into publishable academic journal : Prof. Ts.Dr. Nangkula Utaberta",
-    description: "Topik 4 dan 5 dilaksanakan paralel",
+    description: "Moderator + PIC : Dr. apt. Wardiyah, M.Si",
   },
   {
     day: "Day 2",
@@ -137,19 +155,19 @@ const scheduleData: Schedule[] = [
     day: "Day 2",
     time: "09:45 - 11:00",
     schedule: "Topik 6 : Community service: Rational Self-Medication Practices in Malaysia + Discussion : apt. Enti Hariadha, MSc.(Clin.Pharm) : UCSI",
-    description: "Target peserta : Peserta rakernas, mahasiswa dan masyarakat",
+    description: "Target peserta : Peserta rakernas, mahasiswa dan masyarakat | Moderator : apt. Ulya Safrina, M.Si | PIC : Dr. apt. Ika Kurnia Sukmawati, M.Si",
   },
   {
     day: "Day 2",
     time: "11:00 - 12:30",
-    schedule: "Topik 7 : Pengabdian Masyarakat : Optimalisasi Pemanfaatan Obat Tradisional terhadap peningkatan status kesehatan masyarakat : apt. Awal Prichatin Kusumadewi., M.Sc.",
-    description: "Target peserta : Peserta rakernas, mahasiswa dan masyarakat",
+    schedule: "Topik 7 : Community Service: Optimizing the Use of Traditional Medicine to Improve Community Health Status apt. Awal Prichatin Kusumadewi., M.Sc.",
+    description: "Target peserta : Peserta rakernas, mahasiswa dan masyarakat | Moderator : apt. Indri Astuti,S.Si, M.Farm. | PIC : Dr. apt. Yenni Puspita Tanjung, M.Farm.",
   },
   {
     day: "Day 2",
     time: "08:00 - 12:30",
     schedule: "Poster/Oral Presentation",
-    description: "Daring",
+    description: "Tempat : Meeting room | PJ : pt. MH Roseno M.Si ; apt. Widyastiwi, S.Farm., M.Si",
   },
   {
     day: "Day 2",
@@ -165,9 +183,21 @@ const scheduleData: Schedule[] = [
   },
   {
     day: "Day 2",
-    time: "16:00 - 17:00",
-    schedule: "Sosialisasi Penawaran Program dan MoU dengan Industri",
-    description: "-",
+    time: "13:30 - 14:45",
+    schedule: "Diskusi masing-masing regional",
+    description: "Ketua regional",
+  },
+  {
+    day: "Day 2",
+    time: "14:15 - 15:15",
+    schedule: "Presentasi masing-masing regional",
+    description: "Ketua regional",
+  },
+  {
+    day: "Day 2",
+    time: "15:15 - 17:00",
+    schedule: "Diskusi",
+    description: "Moderator : Dr. apt. Leonov Rianto.,S.Si.,M.Farm.,Apt",
   },
   {
     day: "Day 2",
@@ -179,7 +209,7 @@ const scheduleData: Schedule[] = [
     day: "Day 2",
     time: "18:30 - 22:00",
     schedule: "Gala Dinner (Contest announcement, and gathering)+Coffee",
-    description: "-",
+    description: "Dress Code : Pakaian bertema pahlawan nasional RI",
   },
   {
     day: "Day 3",
@@ -353,14 +383,29 @@ const Rundown = () => {
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground">
                     Download the official JUKNIS for Gala Dinner RAKERNAS 2025.
-
                   </p>
                   <Button variant="gold" size="lg" className="w-full sm:w-auto">
                     <a href="https://drive.google.com/file/d/1RZ6ePqnHoMeGxeRW8TtRtHAOke1tsjMF/view?usp=sharing" target="_blank">JUKNIS Gala Dinner</a>
                   </Button>
-                  <p className="text-xs text-muted-foreground">
-
+                  <p className="text-xs text-muted-foreground"></p>
+                </CardContent>
+                <CardContent className="space-y-4">
+                  <p className="text-muted-foreground">
+                    Tata Tertib Peserta RAKERNAS APDFI 2025
                   </p>
+                  <Button variant="gold" size="lg" className="w-full sm:w-auto">
+                    <a href="https://drive.google.com/file/d/1At8bn1VHt6T2LzF2G3DKR-QQgyD9lk5_/view?usp=sharing" target="_blank">Tata Tertib Peserta</a>
+                  </Button>
+                  <p className="text-xs text-muted-foreground"></p>
+                </CardContent>
+                <CardContent className="space-y-4">
+                  <p className="text-muted-foreground">
+                    Rute Transportasi RAKERNAS APDFI
+                  </p>
+                  <Button variant="gold" size="lg" className="w-full sm:w-auto">
+                    <a href="https://drive.google.com/file/d/1Nfz7mXmCgdinJAsDk1ao5jF2tPW934hr/view?usp=sharing" target="_blank">Rute Transportasi</a>
+                  </Button>
+                  <p className="text-xs text-muted-foreground"></p>
                 </CardContent>
             </Card>
           </div>
