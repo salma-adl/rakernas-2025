@@ -91,6 +91,15 @@ const Accommodation = () => {
                       Approximately 10-20 minutes by taxi or ride-sharing service
                     </p>
                   </div>
+
+                  <div className="bg-secondary/30 p-4 rounded-lg">
+                    <h4 className="font-semibold mb-2">Rute Transportasi RAKERNAS</h4>
+                    <Button variant="gold" size="lg" className="w-full sm:w-auto">
+                    <a href="https://drive.google.com/file/d/1Nfz7mXmCgdinJAsDk1ao5jF2tPW934hr/view?usp=sharing" target="_blank">Rute Transportasi</a>
+                    </Button>
+                    <p className="text-xs text-muted-foreground"></p>
+                  </div>
+
                 </div>
               </CardContent>
             </Card>
