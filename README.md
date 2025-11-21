@@ -55,10 +55,8 @@ Website ini memiliki beberapa menu utama:
 | -------------- | ----------------------------------------------------- |
 | **Frontend**   | [React.js](https://reactjs.org/) dengan Tailwind CSS  |
 | **Backend**    | [Node.js](https://nodejs.org/) menggunakan Express.js |
-| **Database**   | Tidak digunakan (konten statis)                       |
-| **Deployment** | Hosting di domain resmi `rakernas.apdfi2025.id`       |
+| **Database**   | Tidak digunakan (konten statis)                       |     |
 | **Desain**     | Tampilan profesional, modern, dan mobile-responsive   |
-| **SEO**        | Tidak dioptimalkan (internal event site)              |
 
 ---
 
